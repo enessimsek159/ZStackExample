@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AB6235F32C3C5F93000145D6 /* CookieExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB6235F22C3C5F93000145D6 /* CookieExample.swift */; };
 		AB8CEBD32C3BF67F005C3F4D /* ZStackExampleApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB8CEBD22C3BF67F005C3F4D /* ZStackExampleApp.swift */; };
 		AB8CEBD52C3BF67F005C3F4D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB8CEBD42C3BF67F005C3F4D /* ContentView.swift */; };
 		AB8CEBD72C3BF680005C3F4D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AB8CEBD62C3BF680005C3F4D /* Assets.xcassets */; };
@@ -14,6 +15,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		AB6235F22C3C5F93000145D6 /* CookieExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CookieExample.swift; sourceTree = "<group>"; };
 		AB8CEBCF2C3BF67F005C3F4D /* ZStackExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZStackExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AB8CEBD22C3BF67F005C3F4D /* ZStackExampleApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZStackExampleApp.swift; sourceTree = "<group>"; };
 		AB8CEBD42C3BF67F005C3F4D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -33,6 +35,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		AB6235F02C3C5ECF000145D6 /* ZStackExample */ = {
+			isa = PBXGroup;
+			children = (
+				AB8CEBD42C3BF67F005C3F4D /* ContentView.swift */,
+			);
+			path = ZStackExample;
+			sourceTree = "<group>";
+		};
+		AB6235F12C3C5F4C000145D6 /* HomeWorkExample */ = {
+			isa = PBXGroup;
+			children = (
+				AB6235F22C3C5F93000145D6 /* CookieExample.swift */,
+			);
+			path = HomeWorkExample;
+			sourceTree = "<group>";
+		};
 		AB8CEBC62C3BF67F005C3F4D = {
 			isa = PBXGroup;
 			children = (
@@ -53,7 +71,8 @@
 			isa = PBXGroup;
 			children = (
 				AB8CEBD22C3BF67F005C3F4D /* ZStackExampleApp.swift */,
-				AB8CEBD42C3BF67F005C3F4D /* ContentView.swift */,
+				AB6235F12C3C5F4C000145D6 /* HomeWorkExample */,
+				AB6235F02C3C5ECF000145D6 /* ZStackExample */,
 				AB8CEBD62C3BF680005C3F4D /* Assets.xcassets */,
 				AB8CEBD82C3BF680005C3F4D /* ZStackExample.entitlements */,
 				AB8CEBD92C3BF680005C3F4D /* Preview Content */,
@@ -140,6 +159,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				AB8CEBD52C3BF67F005C3F4D /* ContentView.swift in Sources */,
+				AB6235F32C3C5F93000145D6 /* CookieExample.swift in Sources */,
 				AB8CEBD32C3BF67F005C3F4D /* ZStackExampleApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
