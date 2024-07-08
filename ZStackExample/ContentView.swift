@@ -8,12 +8,32 @@
 import SwiftUI
 
 struct ContentView: View {
+    
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
+        ZStack(alignment: .leading) {
+            Image("icon")
+            
+            
+            VStack(alignment: .leading) {
+                
+                Spacer().frame(height: 190)
+                ZStack(alignment: .leading) {
+                    Rectangle()
+                        .fill(.blue)
+                        .cornerRadius(10)
+                        .frame(width: 250, height: 50)
+                    
+                    VStack(alignment: .leading) {
+                        Text("Enes")
+                            .font(.headline)
+                            .padding(.leading)
+                            
+                        Text("Developer")
+                            .font(.subheadline)
+                            .padding(.leading)
+                    }
+                }
+            }
         }
         .padding()
     }
